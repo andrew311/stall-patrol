@@ -1,5 +1,13 @@
 # Getting Started
 
+## Setup dfu-util
+
+Make sure dfu-util is installed and in your path. You can install it with macports. Get macports from their web site, make sure it's in your path and do:
+
+`sudo port install dfu-util`
+
+Then make sure /opt/local/bin is in your path so spark can find dfu-util.
+
 ## Credentials
 
     cp src/creds/keys.cpp.sample src/creds/keys.cpp
