@@ -1,4 +1,4 @@
-This codebase was created at the Internet of Things HackDay at AWS re:Invent 2014. It was forked from the AWS Arduino SDK to include AWS client code. This project is paired with a UI located at https://github.com/jon918/stall-patrol-ui.
+This codebase was created at the Internet of Things HackDay at AWS re:Invent 2014. It was forked from the AWS Arduino SDK to include AWS client code. This project is paired with a UI; the code for the UI is located at https://github.com/jon918/stall-patrol-ui.
 
 For the HackDay, Jon Bass, Ricardo DeMatos, and myself worked on a project using Spark devices (https://www.spark.io/). Our goal was to provide a device with a motion sensor that updated a database every time it sensed motion. A web UI would query that database to show when motion was detected. You could also flash LEDs on the device from the UI.
 
