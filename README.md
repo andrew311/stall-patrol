@@ -1,3 +1,5 @@
+This codebase was created at the Internet of Things HackDay at AWS re:Invent 2014. It was forked from the AWS Arduino SDK to include AWS client code.
+
 # Getting Started
 
 ## Setup dfu-util
