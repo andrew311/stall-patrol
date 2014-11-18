@@ -1,4 +1,8 @@
-This codebase was created at the Internet of Things HackDay at AWS re:Invent 2014. It was forked from the AWS Arduino SDK to include AWS client code.
+This codebase was created at the Internet of Things HackDay at AWS re:Invent 2014. It was forked from the AWS Arduino SDK to include AWS client code. This project is paired with a UI located at https://github.com/jon918/stall-patrol-ui.
+
+For the HackDay, Jon Bass, Ricardo DeMatos, and myself worked on a project using Spark devices (https://www.spark.io/). Our goal was to provide a device with a motion sensor that updated a database every time it sensed motion. A web UI would query that database to show when motion was detected. You could also flash LEDs on the device from the UI.
+
+What's the point of this? We had the silly idea of making a device that would detect whether or not a bathroom stall was occupied and a UI that would display the current occupancy. If someone was taking too long in the stall, you can ping them using the LEDs on the device to give them a heads up that someone is waiting.
 
 # Getting Started
 
